@@ -1,0 +1,253 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" id="ppstyle" type="text/css" href="style.min.css">
+    <link href="css/ihover.min.css" rel="stylesheet">
+    <link href="css/hover.min.css" rel="stylesheet">
+    <link href="css/animations.min.css" rel="stylesheet">
+    <link rel='stylesheet' href='./css/font-awesome.min.css'/>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    
+    <title>TEXZA - Excavación y Zanjado</title>
+</head>
+<body>
+<!-- Main container -->
+<div class="page-container">
+
+    <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title">Contáctenos</h4>
+            <h5>info@texza.cl / +56 9 7405 1983</h5>
+        </div>
+        <div class="modal-body">
+          <form class="form-horizontal" name="commentform" method="post" action="contacto.php">
+    <div class="form-group">
+        <div class="col-md-12 input-group">
+        <span class="input-group-addon"><i class="fa fa-user"></i></span>
+            <input type="text" class="form-control" id="first_name" name="first_name" placeholder="Nombre"/>
+        </div>
+    </div>
+    <div class="form-group">
+        
+        <div class="col-md-12 input-group">
+        <span class="input-group-addon"><i class="fa fa-phone"></i></span>
+            <input type="text" class="form-control" id="last_name" name="last_name" placeholder="Teléfono"/>
+        </div>
+    </div>
+    <div class="form-group">
+        
+        <div class="col-md-12 input-group">
+        <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Correo"/>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-12">
+            <textarea rows="6" class="form-control" id="comments" name="comments" placeholder="Su consulta..."></textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-12 pull-left">
+            <button type="submit" value="Submit" class="btn btn-custom pull-right" id="send_btn">Enviar</button>
+        </div>
+    </div>
+</form>
+        </div><!-- End of Modal body -->
+        </div><!-- End of Modal content -->
+        </div><!-- End of Modal dialog -->
+    </div><!-- End of Modal -->
+
+    <!-- VENTAJAS -->
+<!-- Modal -->
+<div class="modal fade" id="ventajas" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        
+      </div>
+      <div class="modal-body">
+      	<img src="img/ventajas.jpg" class="img-responsive" alt="">
+      </div>
+      <div class="modal-footer">
+        
+      </div>
+    </div>
+  </div>
+</div>
+<!-- VENTAJAS -->
+    
+<!-- Navigation Bloc -->
+<div class="bloc bgc-3 l-bloc" id="nav-bloc">
+	<div class="container">
+		<nav class="navbar row">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="index.html"><img src="img/logo-full.png" alt='logo texza' /></a>
+				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse navbar-1">
+				<ul class="site-navigation nav">
+					<li>
+						<a href="index.html" class="hvr-underline-from-left">INICIO</a>
+					</li>
+					<li>
+						<a href="empresa.html" class="hvr-underline-from-left">EMPRESA</a>
+					</li>
+					<li>
+						<a data-toggle="modal" data-target="#ventajas" class="hvr-underline-from-left">VENTAJAS</a>
+					</li>
+					<li>
+						<a href="fotos.html" class="hvr-underline-from-left">FOTOS</a>
+					</li>
+					<li>
+						<a href="videos.html" class="hvr-underline-from-left">VIDEOS</a>
+					</li>
+					
+					<li>
+						<a href="#myModal" role="button" class="btn btn-custom hvr-underline-from-left" data-toggle="modal">CONTACTO</a>
+					</li>
+					<li>
+						<a href="https://www.facebook.com/profile.php?id=100009001578856&sk=about" target="_blank"><img src="img/facebook.png" alt=""></a>
+					</li>
+					<li>
+						<a href="https://twitter.com/texza_ltda" target="_blank"><img src="img/twitter.png" alt=""></a>
+					</li>
+					<li>
+						<a href="https://www.youtube.com/channel/UCr2YPfJ6ikoo3s-eshsK1PA" target="_blank"><img src="img/youtube.png" alt=""></a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+</div>
+<!-- Navigation Bloc END -->
+
+
+<!-- bloc-galeria -->
+<div class="bloc l-bloc b-parallax" id="empresa">
+	<div class="container bloc-lgg">
+		<div class="row">
+			<div class="col-sm-12 text-center">
+				<h3 class="text-center mg-md ">
+					ACERCA DE NUESTRA EMPRESA
+				</h3>
+			</div>
+			<div class="col-sm-12 col-md-8 col-md-offset-2">
+			<h4 class="">
+				Texza Ltda. es una empresa dedicada y especialista en zanjado y excavaciones, tenemos años de experiencia en instalación de tuberías subterráneas por lo que podemos entender perfectamente la necesidad de cada uno de nuestros clientes.<br><br>
+				Contamos con maquinaria nueva especial para el zanjado lo que nos permite avanzar de manera rápida, ordenada y limpia. Gracias a la versatilidad de nuestros equipos podemos llegar donde otro tipo de maquinaria no puede debido a su gran tamaño. <br><br>
+				Nuestro servicio está enfocado a todo tipo de canalización subterránea llegando a una profundidad máxima de 90 cm. y 16 cm. de ancho. <br><br>
+				Los requerimientos de zanjas más comunes son para: <br><br>
+				<ul>
+					<li>Riego tecnificado</li>
+					<li>Canalizaciones eléctricas</li>
+					<li>Redes de gas</li>
+					<li>Instalación de fibra óptica</li>
+					<li>Tuberías sanitarias</li>
+					<li>Cañerías de agua potable</li><br><br>
+				</ul>
+				Cualquiera sea su necesidad de zanjado no dude en contactarnos, lo podemos ayudar a realizar su proyecto de manera ágil y eficaz. 
+			</h4>
+		</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-3 galeria -->
+
+<!-- Footer - bloc-4 -->
+<div class="bloc animatedParent animateOnce  " id="bloc-4">
+	<div class="container bloc-sm2">
+		<div class="row voffset ">
+			<div class="col-sm-3 animated bounceIn slow">
+				<img src="img/dingo1.jpg" class="img-responsive " alt='' />
+			</div>
+			<div class="col-sm-3 animated bounceIn slow">
+				<img src="img/dingo2.jpg" class="img-responsive " alt='' />
+			</div>
+			<div class="col-sm-3 animated bounceIn slow">
+				<img src="img/dingo5.jpg" class="img-responsive " alt='' />
+			</div>
+			<div class="col-sm-3 animated bounceIn slow">
+				<img src="img/dingo4.jpg" class="img-responsive " alt='' />
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Footer - bloc-4 END -->
+
+
+
+
+
+
+<!-- Footer - bloc-5 -->
+<div class="bloc  d-bloc" id="bloc-5">
+	<div class="container bloc-sm">
+		<div class="row">
+			<div class="col-sm-3">
+				<img src="img/logo-full.png"  class="img-responsive" alt='logo texza' />
+			</div>
+			<div class="col-sm-5">
+				<h3>
+					Contáctenos
+				</h3>
+				<a href="mailto:info@texza.cl" class="a-btn a-block hvr-icon-fade"> info@texza.cl</a>
+				<a class="a-btn a-block hvr-icon-phone"> +56 9 7405 1983</a>
+				<a href="https://www.google.cl/maps/place/Camino+A+Melipilla+145,+Padre+Hurtado,+Región+Metropolitana/@-33.5597786,-70.7965881,16z/data=!4m2!3m1!1s0x9662dd83a8c544f9:0x7409f8493a204ba8" class="a-btn a-block hvr-icon-mapa"> Camino a Melipilla #175, Padre Hurtado</a>
+			</div>
+			<div class="col-sm-1">
+				
+			</div>
+			<div class="col-sm-1">
+				<a href="https://www.facebook.com/profile.php?id=100009001578856&sk=about" target="_blank"><img class="sociales" src="img/facebook.png" alt=""></a>
+			</div>
+			<div class="col-sm-1">
+				<a href="https://twitter.com/texza_ltda" target="_blank"><img class="sociales"src="img/twitter.png" alt=""></a>
+			</div>
+			<div class="col-sm-1">
+				<a href="https://www.youtube.com/channel/UCr2YPfJ6ikoo3s-eshsK1PA" target="_blank"><img class="sociales"src="img/youtube.png" alt=""></a>
+			</div>
+		</div>
+		<div class="col-sm-12 bloc-xs icono">
+				<a href="http://www.webframe.cl"><img src="img/logo_wf.png" alt="icono web frame"></a>
+			</div>
+	</div>
+</div>
+<!-- Footer - bloc-5 END -->
+</div>
+<!-- Main container END -->
+
+</body>
+<script src="./js/jquery-2.1.0.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/blocs.min.js"></script>
+    
+<script src="./js/css3-animate-it.js"></script>
+<script>
+$('#send_btn').popover({content: 'Gracias'},'click');	
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109463872-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-109463872-1');
+</script>
+
+
+</html>
